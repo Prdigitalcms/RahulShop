@@ -3,13 +3,13 @@ import React from "react";
 import { Routes, Route } from "react-router";
 import ShopContextProvider from "./pages/ShopContext";
 
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
+import Navbar from "./Components/Navbar";
+import Home from "./Components/Home";
 import ProductDisplay from "./Components/ProductDisplay/ProductDisplay";
-import ShopCatagory from "./components/ShopCatagory";
-import Login from "./components/Login";
-import Cart from "./components/Cart";
-import ProductsPage from "./components/ProductsPage"; // agar use kar rahe ho
+import ShopCatagory from "./Components/ShopCatagory";
+import Login from "./Components/Login";
+import Cart from "./Components/Cart";
+import ProductsPage from "./Components/ProductsPage"; // agar use kar rahe ho
 
 const App = () => {
   return (
