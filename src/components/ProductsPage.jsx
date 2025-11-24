@@ -1,7 +1,7 @@
 // src/components/ProductsPage.jsx
 import React, { useContext, useEffect } from "react";
 import { ShopContext } from "../pages/ShopContext";
-import ProductCard from "../Components/ProductCard";
+import ProductCard from "../components/ProductCard";
 
 const ProductsPage = () => {
   const { products, fetchProducts } = useContext(ShopContext);

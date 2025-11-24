@@ -1,7 +1,7 @@
 import React from 'react'
-import Popular from '../Components/popular/Popular'
-import Hero from '../Components/hero/Hero'
-import Offer from '../Components/offer/Offer'
+import Popular from '../components/popular/Popular'
+import Hero from '../components/hero/Hero'
+import Offer from '../components/offer/Offer'
 
 
 const Shop = () => {
