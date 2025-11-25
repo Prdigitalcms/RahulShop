@@ -7,9 +7,11 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import ProductDisplay from "./components/ProductDisplay/ProductDisplay";
 import ShopCatagory from "./components/ShopCatagory";
-import Login from "./components/Login";
 import Cart from "./components/Cart";
 import ProductsPage from "./components/ProductsPage"; // agar use kar rahe ho
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
+import ForgotPassword from "./pages/ForgotPassword";
 
 const App = () => {
   return (
@@ -42,8 +44,9 @@ const App = () => {
         <Route path="/products" element={<ProductsPage />} />
 
         {/* Auth + cart */}
-        <Route path="/login" element={<Login />} />
-        <Route path="/cart" element={<Cart />} />
+  <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
+          <Route path="/forgot-password" element={<ForgotPassword />} />        <Route path="/cart" element={<Cart />} />
       </Routes>
     </ShopContextProvider>
   );
