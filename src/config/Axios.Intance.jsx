@@ -36,7 +36,7 @@ AxiosIntance.interceptors.response.use(
       store.dispatch(removeUser(null));
 
       // Agar CMS ke andar ho to home pe bhej do
-      if (window.location.pathname.startsWith("/cms")) {
+      if (window.location.pathname.startsWith("/cart")) {
         window.location.href = "/";
       }
     }
